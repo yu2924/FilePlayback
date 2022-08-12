@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="eUhcvJ" name="FilePlayback" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="yu2924" companyCopyright="(c) 2022 yu2924" pluginFormats="buildStandalone,buildVST3"
+              pluginAUMainType="'augn'" pluginVST3Category="Generator" version="1.0.0"
+              bundleIdentifier="com.yu2924.FilePlayback" pluginName="FilePlayback"
+              pluginDesc="FilePlayback" pluginManufacturer="yu2924" pluginManufacturerCode="2924"
+              pluginCode="yfpb">
+  <MAINGROUP id="Xex4Wo" name="FilePlayback">
+    <GROUP id="{7617622B-4F62-6E3F-682A-F2020E8DEF95}" name="Source">
+      <FILE id="oEqeg1" name="CommonTypes.h" compile="0" resource="0" file="Source/CommonTypes.h"/>
+      <FILE id="ZmNndL" name="WaveformView.cpp" compile="1" resource="0"
+            file="Source/WaveformView.cpp"/>
+      <FILE id="wrjgG2" name="WaveformView.h" compile="0" resource="0" file="Source/WaveformView.h"/>
+      <FILE id="RjJHwI" name="EditorForm.cpp" compile="1" resource="0" file="Source/EditorForm.cpp"/>
+      <FILE id="gCw8pv" name="EditorForm.h" compile="0" resource="0" file="Source/EditorForm.h"/>
+      <FILE id="BtHnqD" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="ILHBDZ" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="DAMIDy" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="y1KYGb" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"
+               JUCE_ASIO="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="FilePlayback" headerPath="D:\SDKs\ASIOSDK2.3.1\common"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="FilePlayback" headerPath="D:\SDKs\ASIOSDK2.3.1\common"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_core" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_events" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../SDKs/JUCE-7.0.1/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../SDKs/JUCE-7.0.1/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="0"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+  </MODULES>
+</JUCERPROJECT>
