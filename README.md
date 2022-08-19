@@ -9,12 +9,14 @@ JUCE frameworkを利用しています。
 
 ## ビルドの道具立て
 
-* C++ビルドツール: Visual Studio 2017～2022、Xcodeなど、目的のターゲットプラットフォームに合わせたもの。
 * JUCE framework: [ダウンロードページ](https://juce.com/get-juce/download)または[githubリポジトリ](https://github.com/juce-framework/JUCE)からダウンロードできます。
 * Projucer: JUCE frameworkを使ったC++プロジェクトを生成するツールです。[Projucerページ](https://juce.com/discover/projucer)から実行可能なバイナリをダウンロードできますが、JUCE frameworkに同梱のソースを自分でビルドしても良いです。
 * ASIO SDK (optional): Windows版のスタンドアロン形式でASIOを有効化できます。[デベロッパページ](https://www.steinberg.net/developers/)からダウンロードできます。
+* C++ビルドツール: Visual Studio 2017～2022、Xcodeなど、目的のターゲットプラットフォームに合わせたもの。
 
-## ビルドの手順
+JUCEが対応するプラットフォーム、バイナリ形式、ライセンスについては[JUCE](https://juce.com/)で確認してください。
+
+## ビルドの道のり
 
 1. Projucerで.jucerファイルを開く。
 2. Modulesセクションにおいて、ビルド環境に合わせてmoduleパスを修正する。
@@ -22,14 +24,14 @@ JUCE frameworkを利用しています。
 4. File|Save ProjectメニューでC++プロジェクトを書き出す。
 5. Buildsフォルダ下に書き出されたC++プロジェクトをビルドする。
 
-以下の環境でコードを書き、動作を確認しました。
+当方では以下の環境でコードを書き、動作を確認しています。
 * Windows 11 Pro
 * Visual Studio 2022
 * JUCE framework 7.0.1
 * プラグインホスト: JUCE frameworkに同梱のAudioPluginHostアプリケーション
 * VST3、スタンドアロン形式のビルド
 
-MacやLinuxでもビルドできると思います。(要確認)
+MacやLinux、AUやLV2でもビルドできると思います。(要確認)
 
 ## 使い方
 
