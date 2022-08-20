@@ -24,14 +24,12 @@ JUCEが対応するプラットフォーム、バイナリ形式、ライセン�
 4. File|Save ProjectメニューでC++プロジェクトを書き出す。
 5. Buildsフォルダ下に書き出されたC++プロジェクトをビルドする。
 
-当方では以下の環境でコードを書き、動作を確認しています。
+以下の環境で動作を確認していますが、MacやLinux、AUやLV2でもビルドできると思います。(要確認)
 * Windows 11 Pro
 * Visual Studio 2022
 * JUCE framework 7.0.1
 * プラグインホスト: JUCE frameworkに同梱のAudioPluginHostアプリケーション
 * VST3、スタンドアロン形式のビルド
-
-MacやLinux、AUやLV2でもビルドできると思います。(要確認)
 
 ## 使い方
 
